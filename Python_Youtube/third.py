@@ -8,10 +8,6 @@ info={
     3:35,
     
 }
-info["name"][0]="c++"
-print(info.keys())
-print(info["name"])
-
 
 students={
     "name":"Aditya Nath Jha",
@@ -22,4 +18,14 @@ students={
     }
 }
 
+
+info["name"][0]="c++"
+print(info.keys())
+print(info["name"])
 print(students.keys())
+print(students.items())
+print(students.get("subject"))
+print((info.get("subject")[1]))
+
+students.update({"city":{"new delhi":"chennai"}})
+print((students.keys()))
